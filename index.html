@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egypt Party</title>
+    <link
+      rel="shortcut icon"
+      href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="crimson" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5ZM1 14V4h14v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1Zm7-6.507c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" /></svg>'
+      type="image/svg+xml"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Slide Menu Content Start -->
+    <nav
+      id="nav-slide"
+      class="nav-slide bg-dark overflow-hidden position-fixed top-0 start-0"
+    >
+      <ul class="list-unstyled">
+        <li class="mt-4 mb-5 fs-4 menu-item text-end">
+          <a id="btn-close" class="text-decoration-none">&#9587;</a>
+        </li>
+        <li class="my-4 display-6 menu-item">
+          <a href="#" class="text-decoration-none">Home</a>
+        </li>
+        <li class="my-4 display-6 menu-item">
+          <a href="#details" class="text-decoration-none">Details</a>
+        </li>
+        <li class="my-4 display-6 menu-item">
+          <a href="#duration" class="text-decoration-none">Duration</a>
+        </li>
+        <li class="my-4 display-6 menu-item">
+          <a href="#contact" class="text-decoration-none">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Slide Menu Content End -->
+    <!-- Main Content Start -->
+    <main class="flex-grow-1">
+      <!-- Home Section Start -->
+      <section id="hero-area" class="hero-area vh-100 position-relative">
+        <!-- Home Content Start -->
+        <div
+          id="slideNav-toggler"
+          class="navbar-dark position-absolute top-0 start-0"
+        >
+          <button class="navbar-toggler fs-2 m-3" type="button">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div
+          class="vh-100 d-flex flex-column justify-content-center text-center text-bg-dark bg-opacity-75"
+        >
+          <h1 class="display-1">Egyptian Party</h1>
+          <p class="lead fs-3">Let's have Fun</p>
+        </div>
+        <!-- Home Content End -->
+      </section>
+      <!-- Home Section End -->
+
+      <!-- Details Section Start -->
+      <section id="details" class="container-lg py-5 p-lg-5">
+        <h2 class="text-center mb-5 display-4">Join Us</h2>
+        <!-- Accordion Start -->
+        <ul class="acc p-0">
+          <li>
+            <a
+              class="toggle text-decoration-none fs-5 text-center"
+              href="javascript:void(0);"
+              >Singer One</a
+            >
+            <p class="inner p-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              velit eum repudiandae consequatur nihil fuga inventore, similique
+              nam perferendis perspiciatis officia sapiente ut sequi vel odio
+              laudantium esse placeat quos!
+            </p>
+          </li>
+          <li>
+            <a
+              class="toggle text-decoration-none fs-5 text-center"
+              href="javascript:void(0);"
+              >Singer Two</a
+            >
+            <p class="inner p-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              velit eum repudiandae consequatur nihil fuga inventore, similique
+              nam perferendis perspiciatis officia sapiente ut sequi vel odio
+              laudantium esse placeat quos!
+            </p>
+          </li>
+          <li>
+            <a
+              class="toggle text-decoration-none fs-5 text-center"
+              href="javascript:void(0);"
+              >Singer Three</a
+            >
+            <p class="inner p-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              velit eum repudiandae consequatur nihil fuga inventore, similique
+              nam perferendis perspiciatis officia sapiente ut sequi vel odio
+              laudantium esse placeat quos!
+            </p>
+          </li>
+          <li>
+            <a
+              class="toggle text-decoration-none fs-5 text-center"
+              href="javascript:void(0);"
+              >Singer Four</a
+            >
+            <p class="inner p-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              velit eum repudiandae consequatur nihil fuga inventore, similique
+              nam perferendis perspiciatis officia sapiente ut sequi vel odio
+              laudantium esse placeat quos!
+            </p>
+          </li>
+        </ul>
+        <!-- Accordion End -->
+      </section>
+      <!-- Details Section End -->
+
+      <!-- Event Countdown Section Start -->
+      <section id="duration" class="duration">
+        <div class="text-bg-dark bg-opacity-75 p-3 p-lg-5">
+          <h2 class="text-center mb-2 display-4">Party Details</h2>
+          <div class="container-lg p-3 p-lg-5">
+            <!-- Counter Start -->
+            <div class="row g-3">
+              <div class="col-6 col-lg-3">
+                <div class="border border-1">
+                  <div class="text-center p-3">
+                    <span id="time-days" class="display-4">00</span>
+                    <p class="lead fw-bolder m-0">Days</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="border border-1">
+                  <div class="text-center p-3">
+                    <span id="time-hours" class="display-4">00</span>
+                    <p class="lead fw-bolder m-0">Hours</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="border border-1">
+                  <div class="text-center p-3">
+                    <span id="time-minutes" class="display-4">00</span>
+                    <p class="lead fw-bolder m-0">Minutes</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="border border-1">
+                  <div class="text-center p-3">
+                    <span id="time-seconds" class="display-4">00</span>
+                    <p class="lead fw-bolder m-0">Seconds</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Counter End -->
+            <p class="text-center lead mt-3">
+              Remember The Day:
+              <time datetime="2023-10-31 18:00:00" class="fw-bold">
+                31/10/2023 7:00PM
+              </time>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Event Countdown Section End -->
+
+      <!-- Contact Us Section Start -->
+      <section id="contact" class="container-lg p-3 p-lg-5">
+        <h2 class="mb-2 display-4">Join Us</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+              molestias.
+            </p>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="16"
+                    width="16"
+                    fill="crimson"
+                    class="me-1"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+                    />
+                  </svg>
+                </span>
+                New Street 22545, Nexa Road, New York City, USA
+              </li>
+              <li class="mb-2">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="16"
+                    width="16"
+                    fill="crimson"
+                    class="me-1"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                    />
+                  </svg>
+                </span>
+                hello@uigrid.com
+              </li>
+              <li class="mb-2">
+                <span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="16"
+                    width="16"
+                    fill="crimson"
+                    class="me-1"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                    />
+                  </svg>
+                </span>
+                001-000-000-000
+              </li>
+            </ul>
+            <ul class="social-links list-unstyled row mt-4 g-3">
+              <li class="col-2">
+                <a
+                  target="_blank"
+                  class="d-block p-2 p-lg-3 text-center border border-2 rounded"
+                  href="https://facebook.com"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="col-2">
+                <a
+                  target="_blank"
+                  class="d-block p-2 p-lg-3 text-center border border-2 rounded"
+                  href="https://twitter.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                    /></svg
+                ></a>
+              </li>
+              <li class="col-2">
+                <a
+                  target="_blank"
+                  class="d-block p-2 p-lg-3 text-center border border-2 rounded"
+                  href="https://plus.google.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 640 512"
+                  >
+                    <path
+                      d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z"
+                    /></svg
+                ></a>
+              </li>
+              <li class="col-2">
+                <a
+                  target="_blank"
+                  class="d-block p-2 p-lg-3 text-center border border-2 rounded"
+                  href="https://github.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 496 512"
+                  >
+                    <path
+                      d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    /></svg
+                ></a>
+              </li>
+              <li class="col-2">
+                <a
+                  target="_blank"
+                  class="d-block p-2 p-lg-3 text-center border border-2 rounded"
+                  href="https://behance.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 576 512"
+                  >
+                    <path
+                      d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z"
+                    /></svg
+                ></a>
+              </li>
+              <li class="col-2">
+                <a
+                  target="_blank"
+                  class="d-block p-2 p-lg-3 text-center border border-2 rounded"
+                  href="https://dribble.com"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z"
+                    /></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <form action="">
+              <div class="mb-2">
+                <input
+                  type="text"
+                  class="form-control p-3"
+                  placeholder="Enter Name"
+                  required
+                  minlength="8"
+                  maxlength="20"
+                />
+              </div>
+              <div class="mb-2">
+                <input
+                  type="email"
+                  class="form-control p-3"
+                  placeholder="Enter Email"
+                  minlength="8"
+                  required
+                />
+              </div>
+              <div class="mb-2">
+                <textarea
+                  name="message"
+                  id="message"
+                  class="form-control p-3"
+                  placeholder="Your Message"
+                  rows="7"
+                  required
+                  minlength="5"
+                  maxlength="100"
+                ></textarea>
+              </div>
+              <div class="lead" id="remaining-chars-message">
+                <span id="remaining-chars" class="fw-bold text-crimson"
+                  >100</span
+                >
+                Characters Remaining
+              </div>
+              <button class="btn btn-crimson mt-3 py-2 px-5 text-uppercase">
+                send message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Us Section Start -->
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Content Start -->
+    <footer class="text-bg-dark p-3">
+      <div class="container text-center">
+        <p class="lead">
+          Copyright &copy; 2022 -
+          <span class="fw-bold text-crimson">Egyptian Party</span>
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Content End -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

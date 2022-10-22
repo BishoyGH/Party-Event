@@ -1,0 +1,96 @@
+/*************************************
+ * Slide Menu
+ *************************************/
+.menu-item a {
+  color: white;
+}
+.menu-item a:hover,
+.text-crimson {
+  color: crimson;
+}
+
+#btn-close {
+  cursor: pointer;
+}
+
+.nav-slide {
+  padding: 0;
+  z-index: 9999;
+  height: 100vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .nav-slide {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/*************************************
+ * Hero Area
+ *************************************/
+.hero-area {
+  background-image: url(../img/hd-wallpaper-1056764_1920.jpg);
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+/*************************************
+ * Accordion
+ *************************************/
+
+ul.acc {
+  list-style: none;
+}
+ul.acc li {
+  margin-bottom: 0.25rem;
+}
+ul.acc .inner {
+  overflow: hidden;
+  display: none;
+}
+ul.acc li a.toggle {
+  width: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.78);
+  color: #fefefe;
+  padding: 0.75em;
+  border-radius: 0.15em;
+  transition: background 0.3s ease;
+}
+ul.acc li a.toggle:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/*************************************
+ * Countdown
+ *************************************/
+
+.duration {
+  background-image: url(../img/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*************************************
+ * Contact Us
+ *************************************/
+.social-links li:hover a {
+  background-color: crimson;
+}
+.social-links li:hover svg {
+  fill: white;
+}
+.social-links svg {
+  fill: crimson;
+}
+.btn-crimson {
+  background-color: crimson;
+  color: white;
+}
+.btn-crimson:hover {
+  background-color: rgb(148, 7, 35);
+  color: white;
+}
